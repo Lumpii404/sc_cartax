@@ -1,5 +1,4 @@
 ESX = exports["es_extended"]:getSharedObject()
-local AllUser = ESX.GetPlayers()
 
 function removeColorCodes(text)
     return text:gsub("~[a-zA-Z0-9]~", "")
@@ -9,6 +8,7 @@ Citizen.CreateThread(function()
     while true do
         function CarsTax(AllUser)
             MySQL.query('SELECT * FROM owned_vehicles', {}, function(AllCars)
+                local AllUser = ESX.GetPlayers()
                 local taxMultiplier = Config.Price
                 for i = 1, #AllUser, 1 do
                     local xPlayer = ESX.GetPlayerFromId(AllUser[i])
@@ -50,6 +50,7 @@ Citizen.CreateThread(function()
             end)
         end
         CarsTax(AllUser)
+        --print('Taxes paid')
         Citizen.Wait(Config.Time * 60000)
     end
 end)
