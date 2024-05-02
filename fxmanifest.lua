@@ -4,7 +4,7 @@ lua54 'yes'
 
 name "sc_cartaxes"
 author "ScubeScripts"
-version "1.0.1"
+version "1.0.2"
 description "A Simple Script that allows Cartaxes on your Server"
 
 server_scripts {
