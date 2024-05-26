@@ -4,10 +4,6 @@
 
 I've written a new FiveM script for the first time in a while. This script deducts insurance costs for players' vehicles. There are various configuration options available in the Config.lua file, allowing for customization of insurance coverage. This adds a more realistic experience and an additional challenge for managing vehicles.
 
-# » Download sc_cartax 
-
-https://github.com/ScubeScripts/sc_cartax
-
 ## Additional notification systems
 
 > [ox_lib](https://github.com/overextended/ox_lib)
