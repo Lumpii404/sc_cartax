@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This is an old version which is not up to date, please look here: [ScubeScripts](https://github.com/orgs/ScubeScripts/repositories)
+
 # sc_cartax
 
 ![](https://github.com/ScubeScripts/sc_cartax/assets/104854776/befdab3f-c229-4f50-ac85-3525fb53b58e)
